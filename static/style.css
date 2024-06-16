@@ -12,11 +12,11 @@ body {
 }
 
 *, html {
-    --primaryGradient: linear-gradient(93.12deg, #581B98 0.52%, #9C1DE7 100%);
-    --secondaryGradient: linear-gradient(268.91deg, #581B98 -2.14%, #9C1DE7 99.69%);
+    --primaryGradient: linear-gradient(93.12deg, #1b2398 0.52%, #1d82e7 100%);
+    --secondaryGradient: linear-gradient(268.91deg, #1b2398 -2.14%, #1d82e7.69%);
     --primaryBoxShadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
     --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
-    --primary: #581B98;
+    --primary: #1b3898;
 }
 
 /* CHATBOX */
@@ -32,7 +32,7 @@ body {
     flex-direction: column;
     background: #eee;
     width: 500px; /* Augmentation de la largeur */
-    height: 700px; /* Augmentation de la hauteur */
+    height: 500px; /* Augmentation de la hauteur */
     z-index: -123456;
     opacity: 0;
     transition: all .5s ease-in-out;
@@ -152,11 +152,11 @@ body {
 /* Ajouter ces styles à votre feuille de style existante */
 
 .messages__item--user {
-    background-color: #e6f7ff; /* Couleur de fond pour les messages de l'utilisateur */
-    color: #0066cc; /* Couleur du texte pour les messages de l'utilisateur */
+    background-color: #CCCCCC; /* Couleur de fond pour les messages de l'utilisateur */
+    color: #FFFFFF ; /* Couleur du texte pour les messages de l'utilisateur */
 }
 
 .messages__item--bot {
-    background-color: #f2f2f2; /* Couleur de fond pour les réponses du chatbot */
-    color: #333333; /* Couleur du texte pour les réponses du chatbot */
+    background-color: #333333; /* Couleur de fond pour les réponses du chatbot */
+    color: #000000; /* Couleur du texte pour les réponses du chatbot */
 }
